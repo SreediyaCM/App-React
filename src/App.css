@@ -5,3 +5,10 @@ nav{
             list-style-type: none;
             
 }
+
+header{
+  background-color: rgb(143, 101, 101);
+}
+footer{
+  background-color: rgb(3, 3, 46);
+}
