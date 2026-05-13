@@ -5,6 +5,8 @@ import Features from './pages/Features'
 import Community from './pages/Community'
 import Blog from './pages/Blog'
 import Pricing from './pages/Pricing'
+import logo from './images/logo.svg'
+
 
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
       <BrowserRouter> 
       <header>
       <nav>
-        <img src="my-app/src/images/logo.svg" />
+        <img src='/images/Home.jpg' />
         <h2><b>Nexcent</b></h2>
         <Link to="/">Home</Link><br /> 
         <Link to="/Features">Features</Link><br />
@@ -24,7 +26,14 @@ function App() {
         <button>Register Now</button>
       </nav>
       </header>
-
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Features' element={<Features/>}/>
+        <Route path='/Community' element={<Community/>}/>
+        <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/Pricing' element={<Pricing/>}/>
+      </Routes>
+      
       <footer>
         <div>
           <div className='footsec'>
@@ -51,13 +60,7 @@ function App() {
           </div>
         </div>
       </footer>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/Features' element={<Features/>}/>
-        <Route path='/Community' element={<Community/>}/>
-        <Route path='/Blog' element={<Blog/>}/>
-        <Route path='/Pricing' element={<Pricing/>}/>
-      </Routes>
+      
       </BrowserRouter>
     </>
   )
