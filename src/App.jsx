@@ -6,6 +6,7 @@ import Community from './pages/Community'
 import Blog from './pages/Blog'
 import Pricing from './pages/Pricing'
 
+
 function App() {
  
   return (
@@ -13,6 +14,8 @@ function App() {
       <BrowserRouter> 
       <header>
       <nav>
+        <img src="my-app/src/images/logo.svg" />
+        <h2>Nexcent</h2>
         <Link to="/">Home</Link><br /> 
         <Link to="/Features">Features</Link><br />
         <Link to="/Community">Community</Link><br />
