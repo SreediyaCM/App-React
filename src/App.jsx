@@ -17,7 +17,8 @@ function App() {
         <Link to="/Features">Features</Link><br />
         <Link to="/Community">Community</Link><br />
         <Link to="/Blog">Blog</Link><br />
-        <Link to="Pricing">Pricing</Link><br />
+        <Link to="/Pricing">Pricing</Link><br />
+        <button>Register Now</button>
       </nav>
       </header>
       <Routes>
