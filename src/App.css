@@ -3,16 +3,54 @@ nav{
             flex-direction: row;
             justify-content: space-evenly;
             list-style-type: none;
+            align-items: center;
             
 }
 
+nav img{
+   height: 20px;
+   width: 30px;
+   display: flex;
+}
+nav button{
+    background-color: green;
+    border-radius: 10px;
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    
+}
+.green{
+  color: green;
+}
+
 header{
-  background-color: rgb(143, 101, 101);
+  background-color: rgb(238, 217, 217);
 }
 footer{
   background-color: rgb(3, 3, 46);
 }
+.home button{
+  background-color: green;
+    border-radius: 10px;
+    padding: 12px 25px;
+}
 
 .back{
    background-color: azure;
+}
+
+.home{
+  text-align: left;
+}
+
+.last button{
+  background-color: green;
+    border-radius: 10px;
+    padding: 12px 25px;
+}
+
+.last{
+  background-color: rgba(178, 215, 245, 0.671);
 }

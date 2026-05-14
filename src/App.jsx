@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter> 
       <header>
       <nav>
-        <img src='/images/Home.jpg' />
+        <img src='/images/logo.svg' />
         <h2><b>Nexcent</b></h2>
         <Link to="/">Home</Link><br /> 
         <Link to="/Features">Features</Link><br />
