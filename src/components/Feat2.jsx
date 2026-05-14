@@ -3,7 +3,7 @@ import '../styles/Feat2.css'
 
 function Feat2() {
     return (
-        <div>
+        <div className="feat2main">
             <h2>Core Features That Drive Success</h2>
             <div className="feat2sec">
                 
