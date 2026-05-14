@@ -1,11 +1,10 @@
 import React from "react"
+import Feat1 from '../components/Feat1.jsx'
 function Features() {
  
   return (
     <>
-    <div>
-      
-    </div>
+   <Feat1 />
     </>
   )
 }
