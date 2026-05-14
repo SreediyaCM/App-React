@@ -1,10 +1,14 @@
 import React from "react"
-import Feat1 from '../components/Feat1.jsx'
+import Feat2 from '../components/Feat2';
+import Feat3 from '../components/Feat3';
+
 function Features() {
  
   return (
     <>
-   <Feat1 />
+      <Feat3/><br />
+      <Feat2/>
+      
     </>
   )
 }
