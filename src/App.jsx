@@ -6,6 +6,7 @@ import Community from './pages/Community'
 import Blog from './pages/Blog'
 import Pricing from './pages/Pricing'
 import logo from './images/logo.svg'
+import Footer from './components/Footer'
 
 
 
@@ -32,32 +33,8 @@ function App() {
           <Route path='/Pricing' element={<Pricing/>}/> 
         </Routes>
       
-        {/* <footer>
-          <div>
-            <div className='footsec'>
-              <h1>Nexcent</h1>
-              <p>Copyright © 2020 Landify UI Kit.All rights reserved</p>
-
-            </div><br />
-            <div className='footsec'>
-              <h3>Company</h3>
-              <p>About us <br />Blog</p>
-              <p>Contact us <br />Pricing <br />Testimonials</p>
-
-            </div><br />
-            <div>
-              <h3>Support</h3>
-              <p>Help center <br />Terms of service <br />Legal <br />Privacy policy <br />Status</p>
-
-            </div><br /><br />
-
-            <div>
-              stay up to date 
-              <input type="email" />
-              
-            </div>
-          </div>
-        </footer> */}
+        
+        <Footer/>
       
       </BrowserRouter>
     </>
